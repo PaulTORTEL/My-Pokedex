@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- fragment_screen_slide_page.xml -->
+
+    <ScrollView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pokemonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <ImageView
+                    android:id="@+id/frontImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/ic_launcher" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/backImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/ic_launcher" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/overview_stats"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/overview_stats_att"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorAtk"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/overview_stats_def"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorDef"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/overview_stats_hp"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorHp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/overview_stats_speed"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorSpeed"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/overview_stats_spe_att"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorSpeAtk"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/overview_stats_spe_def"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorSpeDef"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <View
+                        android:id="@+id/div"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:id="@+id/pokemonAttack"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="TextView"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorAtk" />
+
+                        <TextView
+                            android:id="@+id/pokemonDefense"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="TextView"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorDef" />
+
+                        <TextView
+                            android:id="@+id/pokemonHp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="TextView"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorHp" />
+
+                        <TextView
+                            android:id="@+id/pokemonSpeed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="TextView"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorSpeed" />
+
+                        <TextView
+                            android:id="@+id/pokemonSpeAtt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="TextView"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorSpeAtk" />
+
+                        <TextView
+                            android:id="@+id/pokemonSpeDef"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="TextView"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorSpeDef" />
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    style="?android:textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.2"
+                    android:padding="10dp"
+                    android:text="@string/details_pokemon_abilities"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/abilities"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="TextView"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/details_pokemon_moves"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <View
+                android:id="@+id/div2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TableLayout
+                android:id="@+id/movesTable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/learnMoreBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/details_pokemon_web"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="@color/colorBtnBg" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pokemon-list>
+	<pokemon>
+		<id>1</id>
+		<name>bulbasaur</name>
+		<url>https://pokeapi.co/api/v2/pokemon/1/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png</sprite>
+		</sprites>
+		<weight>69</weight>
+		<height>7</height>
+		<types>
+			<type slot="1">grass</type>
+			<type slot="2">poison</type>
+		</types>
+		<stats>
+			<stat type="attack">49</stat>
+			<stat type="defense">49</stat>
+			<stat type="hp">45</stat>
+			<stat type="speed">45</stat>
+			<stat type="special-defense">65</stat>
+			<stat type="special-attack">65</stat>
+		</stats>
+	</pokemon>
+	
+	<pokemon>
+		<id>2</id>
+		<name>ivysaur</name>
+		<url>https://pokeapi.co/api/v2/pokemon/2/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png</sprite>
+		</sprites>
+		<weight>130</weight>
+		<height>10</height>
+		<types>
+			<type slot="1">grass</type>
+			<type slot="2">poison</type>
+		</types>
+		<stats>
+			<stat type="attack">62</stat>
+			<stat type="defense">63</stat>
+			<stat type="hp">60</stat>
+			<stat type="speed">60</stat>
+			<stat type="special-defense">80</stat>
+			<stat type="special-attack">80</stat>
+		</stats>
+	</pokemon>
+	
+	<pokemon>
+		<id>3</id>
+		<name>venusaur</name>
+		<url>https://pokeapi.co/api/v2/pokemon/3/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png</sprite>
+		</sprites>
+		<weight>1000</weight>
+		<height>20</height>
+		<types>
+			<type slot="1">grass</type>
+			<type slot="2">poison</type>
+		</types>
+		<stats>
+			<stat type="attack">82</stat>
+			<stat type="defense">83</stat>
+			<stat type="hp">80</stat>
+			<stat type="speed">80</stat>
+			<stat type="special-defense">100</stat>
+			<stat type="special-attack">100</stat>
+		</stats>
+	</pokemon>
+	<pokemon>
+		<id>4</id>
+		<name>charmander</name>
+		<url>https://pokeapi.co/api/v2/pokemon/4/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png</sprite>
+		</sprites>
+		<weight>85</weight>
+		<height>6</height>
+		<types>
+			<type slot="1">fire</type>
+		</types>
+		<stats>
+			<stat type="attack">52</stat>
+			<stat type="defense">43</stat>
+			<stat type="hp">39</stat>
+			<stat type="speed">65</stat>
+			<stat type="special-defense">50</stat>
+			<stat type="special-attack">60</stat>
+		</stats>
+	</pokemon>
+	
+	<pokemon>
+		<id>5</id>
+		<name>charmeleon</name>
+		<url>https://pokeapi.co/api/v2/pokemon/5/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png</sprite>
+		</sprites>
+		<weight>190</weight>
+		<height>11</height>
+		<types>
+			<type slot="1">fire</type>
+		</types>
+		<stats>
+			<stat type="attack">64</stat>
+			<stat type="defense">58</stat>
+			<stat type="hp">58</stat>
+			<stat type="speed">80</stat>
+			<stat type="special-defense">65</stat>
+			<stat type="special-attack">80</stat>
+		</stats>
+	</pokemon>
+	
+	<pokemon>
+		<id>6</id>
+		<name>charizard</name>
+		<url>https://pokeapi.co/api/v2/pokemon/6/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png</sprite>
+		</sprites>
+		<weight>905</weight>
+		<height>17</height>
+		<types>
+			<type slot="1">fire</type>
+			<type slot="2">flying</type>
+		</types>
+		<stats>
+			<stat type="attack">84</stat>
+			<stat type="defense">78</stat>
+			<stat type="hp">78</stat>
+			<stat type="speed">100</stat>
+			<stat type="special-defense">85</stat>
+			<stat type="special-attack">109</stat>
+		</stats>
+	</pokemon>
+	
+	<pokemon>
+		<id>7</id>
+		<name>squirtle</name>
+		<url>https://pokeapi.co/api/v2/pokemon/7/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png</sprite>
+		</sprites>
+		<weight>90</weight>
+		<height>5</height>
+		<types>
+			<type slot="1">water</type>
+		</types>
+		<stats>
+			<stat type="attack">48</stat>
+			<stat type="defense">65</stat>
+			<stat type="hp">44</stat>
+			<stat type="speed">43</stat>
+			<stat type="special-defense">64</stat>
+			<stat type="special-attack">50</stat>
+		</stats>
+	</pokemon>
+	
+	<pokemon>
+		<id>8</id>
+		<name>wartortle</name>
+		<url>https://pokeapi.co/api/v2/pokemon/8/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png</sprite>
+		</sprites>
+		<weight>225</weight>
+		<height>10</height>
+		<types>
+			<type slot="1">water</type>
+		</types>
+		<stats>
+			<stat type="attack">63</stat>
+			<stat type="defense">80</stat>
+			<stat type="hp">59</stat>
+			<stat type="speed">58</stat>
+			<stat type="special-defense">80</stat>
+			<stat type="special-attack">65</stat>
+		</stats>
+	</pokemon>
+	
+	<pokemon>
+		<id>9</id>
+		<name>blastoise</name>
+		<url>https://pokeapi.co/api/v2/pokemon/9/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png</sprite>
+		</sprites>
+		<weight>855</weight>
+		<height>16</height>
+		<types>
+			<type slot="1">water</type>
+		</types>
+		<stats>
+			<stat type="attack">83</stat>
+			<stat type="defense">100</stat>
+			<stat type="hp">79</stat>
+			<stat type="speed">78</stat>
+			<stat type="special-defense">105</stat>
+			<stat type="special-attack">85</stat>
+		</stats>
+	</pokemon>
+
+	<pokemon>
+		<id>23</id>
+		<name>ekans</name>
+		<url>https://pokeapi.co/api/v2/pokemon/23/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png</sprite>
+		</sprites>
+		<weight>69</weight>
+		<height>20</height>
+		<types>
+			<type slot="1">poison</type>
+		</types>
+		<stats>
+			<stat type="attack">60</stat>
+			<stat type="defense">44</stat>
+			<stat type="hp">35</stat>
+			<stat type="speed">55</stat>
+			<stat type="special-defense">54</stat>
+			<stat type="special-attack">40</stat>
+		</stats>
+	</pokemon>
+
+	<pokemon>
+		<id>24</id>
+		<name>arbok</name>
+		<url>https://pokeapi.co/api/v2/pokemon/24/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png</sprite>
+		</sprites>
+		<weight>650</weight>
+		<height>35</height>
+		<types>
+			<type slot="1">poison</type>
+		</types>
+		<stats>
+			<stat type="attack">95</stat>
+			<stat type="defense">69</stat>
+			<stat type="hp">60</stat>
+			<stat type="speed">80</stat>
+			<stat type="special-defense">79</stat>
+			<stat type="special-attack">65</stat>
+		</stats>
+	</pokemon>
+
+	<pokemon>
+		<id>25</id>
+		<name>pikachu</name>
+		<url>https://pokeapi.co/api/v2/pokemon/25/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png</sprite>
+		</sprites>
+		<weight>60</weight>
+		<height>4</height>
+		<types>
+			<type slot="1">electric</type>
+		</types>
+		<stats>
+			<stat type="attack">55</stat>
+			<stat type="defense">40</stat>
+			<stat type="hp">35</stat>
+			<stat type="speed">90</stat>
+			<stat type="special-defense">50</stat>
+			<stat type="special-attack">50</stat>
+		</stats>
+	</pokemon>
+
+	<pokemon>
+		<id>77</id>
+		<name>ponyta</name>
+		<url>https://pokeapi.co/api/v2/pokemon/77/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png</sprite>
+		</sprites>
+		<weight>300</weight>
+		<height>10</height>
+		<types>
+			<type slot="1">fire</type>
+		</types>
+		<stats>
+			<stat type="attack">85</stat>
+			<stat type="defense">55</stat>
+			<stat type="hp">50</stat>
+			<stat type="speed">90</stat>
+			<stat type="special-defense">65</stat>
+			<stat type="special-attack">65</stat>
+		</stats>
+	</pokemon>
+
+	<pokemon>
+		<id>144</id>
+		<name>articuno</name>
+		<url>https://pokeapi.co/api/v2/pokemon/144/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png</sprite>
+		</sprites>
+		<weight>554</weight>
+		<height>17</height>
+		<types>
+			<type slot="1">ice</type>
+			<type slot="2">flying</type>
+		</types>
+		<stats>
+			<stat type="attack">85</stat>
+			<stat type="defense">100</stat>
+			<stat type="hp">90</stat>
+			<stat type="speed">85</stat>
+			<stat type="special-defense">125</stat>
+			<stat type="special-attack">95</stat>
+		</stats>
+	</pokemon>
+
+    <pokemon>
+        <id>145</id>
+        <name>zapdos</name>
+        <url>https://pokeapi.co/api/v2/pokemon/145/</url>
+        <sprites>
+            <sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png</sprite>
+        </sprites>
+        <weight>526</weight>
+        <height>16</height>
+        <types>
+            <type slot="1">electric</type>
+            <type slot="2">flying</type>
+        </types>
+        <stats>
+            <stat type="attack">90</stat>
+            <stat type="defense">85</stat>
+            <stat type="hp">90</stat>
+            <stat type="speed">100</stat>
+            <stat type="special-defense">90</stat>
+            <stat type="special-attack">125</stat>
+        </stats>
+    </pokemon>
+
+	<pokemon>
+		<id>146</id>
+		<name>moltres</name>
+		<url>https://pokeapi.co/api/v2/pokemon/146/</url>
+		<sprites>
+			<sprite>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png</sprite>
+		</sprites>
+		<weight>600</weight>
+		<height>20</height>
+		<types>
+			<type slot="1">fire</type>
+			<type slot="2">flying</type>
+		</types>
+		<stats>
+			<stat type="attack">100</stat>
+			<stat type="defense">90</stat>
+			<stat type="hp">90</stat>
+			<stat type="speed">90</stat>
+			<stat type="special-defense">85</stat>
+			<stat type="special-attack">125</stat>
+		</stats>
+	</pokemon>
+</pokemon-list>

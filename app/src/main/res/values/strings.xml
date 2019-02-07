@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Pokedex</string>
+    <string name="overview_details">Details</string>
+    <string name="overview_type">Type</string>
+    <string name="overview_weight">Weight</string>
+    <string name="overview_height">Height</string>
+    <string name="overview_stats">Stats</string>
+    <string name="overview_stats_att">Attack</string>
+    <string name="overview_stats_def">Defense</string>
+    <string name="overview_stats_hp">HP</string>
+    <string name="overview_stats_speed">Speed</string>
+    <string name="overview_stats_spe_def">Spe. def.</string>
+    <string name="overview_stats_spe_att">Spe. att.</string>
+    <string name="overview_more_info">More info on the pokemon</string>
+    <string name="details_pokemon_moves">Moves</string>
+    <string name="details_pokemon_abilities">Abilities</string>
+    <string name="details_pokemon_web">Learn more about the Pokemon</string>
+
+    <string name="details_pokemon_info_wifi">Enabling the Wifi on your device...</string>
+    <string name="home_menu">Home</string>
+
+</resources>

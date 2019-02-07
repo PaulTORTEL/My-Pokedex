@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#404040</color>
+    <color name="colorPrimaryDark">#282828</color>
+    <color name="colorAccent">#ffcb05</color>
+    <color name="colorBtnBg">#316ab2</color>
+    <color name="colorBtnBgBlack">#1f55af</color>
+    <color name="colorEmptyDot">#e8e8e8</color>
+
+    <color name="colorAtk">#cc2936</color>
+    <color name="colorDef">#6b818c</color>
+    <color name="colorHp">#5eeb5b</color>
+    <color name="colorSpeed">#59c9a5</color>
+    <color name="colorSpeAtk">#a94456</color>
+    <color name="colorSpeDef">#444b6e</color>
+</resources>

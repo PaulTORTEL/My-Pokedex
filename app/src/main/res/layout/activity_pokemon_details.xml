@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PokemonDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <com.rd.PageIndicatorView
+            android:id="@+id/pageIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:piv_animationType="drop"
+            app:piv_dynamicCount="true"
+            app:piv_interactiveAnimation="true"
+            app:piv_selectedColor="@color/colorBtnBg"
+            app:piv_unselectedColor="@color/colorEmptyDot"
+            app:piv_viewPager="@id/pager"
+            attrs:piv_padding="12dp"
+            attrs:piv_radius="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detailsLoading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/details_pokemon_info_wifi"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
